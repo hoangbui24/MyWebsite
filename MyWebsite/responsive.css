@@ -1,0 +1,107 @@
+@media(max-width: 767px){
+  .about-section .skill .skill-item,
+  .about-section .about-info,
+  .about-section .about-img,
+  .home-section .home-text,
+  .home-section .home-img{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-section .home-text{
+    order: 1;
+  }
+
+  .home-section .home-text{
+    text-align: center;
+    top: 80%;
+  }
+  .home-section a{
+    display: inline-block;
+    position: absolute;
+  }
+  .home-section .full-screen{
+    padding: 100px 0;
+  }
+  .home-section .home-img .img-box{
+    display: auto;
+    margin-bottom: 40px;
+    height: auto;
+    width: auto;
+  }
+  .home-section .home-img .img-box img{
+    display: block;
+    height: auto;
+  }
+
+  .effect1{
+    right: 20%;
+    display: none;
+  }
+  .effect2{
+    top: 80%;
+  }
+  .effect3{
+    right: -6px;
+
+  }
+  .effect4{
+    right: 1%;
+    display: none;
+  }
+  .effect5{
+    left: 4%;
+    top: 15%;
+  }
+  .effect6{
+    top: 95%;
+    left: 45%;
+    display: block;
+    position: absolute;
+
+  }
+  .about-section .about-img{
+
+    padding-bottom: 30px;
+  }
+  .about-section .about-info a{
+    width: 100%;
+  }
+  .about-section .timeline .timeline-item:nth-child(odd){
+    padding-right: 15px;
+    text-align: left;
+    padding-left: 75px;
+  }
+  .about-section .timeline .timeline-item:nth-child(even){
+    padding-left: 75px;
+  }
+  .about-section .timeline::before{
+    left: 35px;
+  }
+  .about-section .timeline .timeline-item:nth-child(odd) .icon{
+    right: auto;
+    left: -60px;
+  }
+  .about-section .timeline .timeline-item:nth-child(even) .icon{
+    left: -60px;
+  }
+  .about-section .timeline .timeline-item{
+    margin-bottom: 40px;
+  }
+  .about-section .timeline .timeline-item:last-child{
+    margin-bottom: 0;
+  }
+  .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+    left: -30px;
+    right: auto;
+  }
+}
+
+@media(max-width: 574px){
+  .home-section .home-img .img-box{
+    max-width: 260px;
+    height: 100px;
+  }
+  .home-section .home-text h2{
+    font-size: 40px;
+  }
+}
